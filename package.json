@@ -35,21 +35,7 @@
     "example:chainStore": "babel-node examples/chainStore",
     "example:privKey": "babel-node examples/privKey"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gxchain/idacjs.git"
-  },
-  "author": "David Lan <lanhaoxiang@qq.com> (https://github.com/lanhaoxiang)",
-  "contributors": [
-    "James Calfee <james@jcalfee.info> (https://github.com/jcalfee/)",
-    "Daniel Larimer <dan@cryptonomex.com> (https://github.com/bytemaster/)",
-    "Valentine Zavgorodnev <valentine.zavgorodnev@gmail.com> (https://github.com/valzav/)",
-    "David Lan <lanhaoxiang@qq.com> (https://github.com/lanhaoxiang/)"
-  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gxchain/idacjs/issues"
-  },
   "engines": {
     "node": ">= 6.0.0"
   },
@@ -62,6 +48,7 @@
     "bigi": "^1.4.1",
     "bs58": "^3.0.0",
     "bytebuffer": "^5.0.0",
+    "core-util-is": "^1.0.2",
     "create-hash": "^1.1.2",
     "create-hmac": "^1.1.4",
     "crypto-js": "^3.1.9-1",
@@ -78,7 +65,7 @@
     "babel-cli": "^6.18.0",
     "babel-core": "^6.21.0",
     "babel-eslint": "^7.1.1",
-    "browserify": "^13.1.0",
+    "browserify": "12.0.1",
     "esdoc": "^0.4.3",
     "eslint": "^3.14.1",
     "mocha": "^3.2.0",
