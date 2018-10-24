@@ -106,7 +106,7 @@ ChainTypes.operations = {
     fba_distribute: 44,
     account_upgrade_merchant: 45,
     account_upgrade_datasource: 46,
-    stale_data_market_category_create: 47,
+    donation_create_operation: 47,
     stale_data_market_category_update: 48,
     stale_free_data_product_create: 49,
     stale_free_data_product_update: 50,
